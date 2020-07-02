@@ -1,0 +1,122 @@
+doctype html
+html
+	head
+		meta( charset='UTF-8' )
+		meta( name='viewport', content='width=device-width, initial-scale=1' )
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')
+		link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+		link(rel='stylesheet', href='/stylesheets/style.css' media="all")
+		title= title
+		script(src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js")
+
+	body
+
+		div.nav-wrapper.backbg
+			div.container
+				div.c-top-margin
+					nav.navbar.navbar-expand-lg.bg-img
+						button.navbar-toggler.toggler-border(type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+							span
+								img(src="/images/toggler.png", alt="toggle", height= '24px')
+
+						a(href="#")
+							img(src="/images/logo.png", alt="Logo", height= '42px')
+				
+						span
+							a.navbar-toggler.toggler-border
+								img(src="/images/tel.png", alt="Whts", height= '24px')
+			
+						div.collapse.navbar-collapse#navbarSupportedContent
+							ul.navbar-nav.mr-auto.c-nav
+								li.nav-item
+									a.nav-link(href="#") Guardar
+								
+								li.nav-item
+									a.nav-link(href="#") Alquilar
+
+								li.nav-item
+									a.nav-link(href="#") Empresas
+
+							span.c-phn (011)-5263-5754
+							button.btn.c-btn(type="submit") Entar
+				
+			div.col-md-12.c-hero
+				h3.text-center.headerBannerTitle Guardá todo lo que necesites <span class="c-inline"> por el tiempo que necesites.</span>
+					
+				div.c-hero-btn
+					a(href="#") Cotiza en linea
+
+		block content
+
+		div.footerTemp
+			.footerSummary
+				.row-user.justify-between
+					.summaryGroup
+						.row.align-center
+							div
+								img(src='/images/phone.png', alt="Phone")
+							div.groupContent
+								p.groupTitle Llamanos
+								p.groupDescription (011) 5263-5754
+					.summaryGroup
+						.row.align-center
+							div
+								img(src='/images/email.png', alt="Phone")
+							div.groupContent
+								p.groupTitle Escribinos
+								p.groupDescription hola@space.guru
+					.summaryGroup
+						.row.align-center
+							div
+								img(src='/images/hand.png', alt="Phone")
+							div.groupContent
+								p.groupTitle Seguinos
+								p.groupDescription (011) 5263-5754
+
+			.footerContent
+				.row-user.justify-between.customMargin
+					.contentGroup
+						.row-user
+							.listGroup
+								.list
+									p Sobre Nostros
+								.list
+									p Ayuda
+								.list
+									p Preguntas Frecuentes
+							.listGroup
+								.list.mobileHide
+									p Blog
+								.list.mobileHide
+									p Donaciones
+								.list.mobileShow
+									p Términos y condiciones
+								.list.mobileShow
+									p Política de privacidad
+								.list
+									p Seguro de guardado
+					.contentGroup
+						.inputBox
+							input(type="text", name="mail" placeholder="Dejanos tu email...")
+							button(type="submit" name="mail" class="sub_btn")
+								span
+									img(src="/images/vector.png", alt="toggle", height= '24px')
+				
+				.row-user.justify-between
+					.menuGroup
+						.row-user
+							.footer-logo-box.row.align-center
+								img(src="/images/footer-logo.png", alt="Footer Logo")
+								p.menuTitle ® Space Guru, 2020
+								p.mobileHide.menuTitle Términos y condiciones
+								p.mobileHide.menuTitle Políticas de privacidad
+					.menuGroup
+						.row-user.footer-menu
+							.footer-store-box.row.align-center
+								div.app-store
+									img(src="/images/apple-store-btn.png", alt="App Store")
+								div.google-store
+									img(src="/images/google-store-btn.png", alt="Google Store")
+							
+
