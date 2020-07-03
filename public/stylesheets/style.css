@@ -37,7 +37,7 @@
     width: 50%; }
     @media (max-width: 576px) {
       .post .left .postContent {
-        margin-left: 15px !important;
+        margin-left: 30px !important;
         padding-right: 5% !important;
         margin-top: 100px; } }
   .post p {
@@ -165,14 +165,14 @@
       width: unset; }
   .landingSecond {
     margin-right: 0 !important;
-    margin-left: 5% !important;
     margin-top: 40px;
     flex-wrap: wrap-reverse; }
     .landingSecond .left {
       display: flex;
       margin-right: 5%;
       width: unset;
-      padding-left: 0 !important; }
+      padding-left: 0 !important;
+      text-align: right; }
     .landingSecond .right {
       width: unset; } }
 
