@@ -78,14 +78,14 @@
     color: #0F0E31; }
 
 .btn-style_sample {
-  background: #5D58F7;
+  background-color: #5D58F7;
   padding: 12.5px 44px;
   border-radius: 3px;
   color: white;
   border: none; }
 
 .service {
-  background: #F5F5FB;
+  background-color: #F5F5FB;
   padding: 100px 10%; }
   .service .serviceDes {
     font-size: 30px;
@@ -171,8 +171,7 @@
       display: flex;
       margin-right: 5%;
       width: unset;
-      padding-left: 0 !important;
-      text-align: right; }
+      padding-left: 0 !important; }
     .landingSecond .right {
       width: unset; } }
 
@@ -190,6 +189,9 @@ body {
 * {
   margin: 0;
   padding: 0; }
+
+.toggler-border {
+  border: none; }
 
 .nav-bg {
   position: absolute; }
