@@ -2,4 +2,76 @@ extends ./layout
 
 block content
   div.content
-    p Test
+    div.contentTitle
+      p.contentBannerTitle No space, no problem:<span class="c-inline"> Conocé cómo funciona SpaceGuru y solucioná tus problemas</span> de guardado en pocos pasos.
+    
+    div.post.landingFirst.justify-between
+      .left
+        .number
+          p 1
+        .postContent
+          p.postTitle Podés calcular tu espacio en<span class="c-inline"> nuestro cotizador, por teléfono </span> o por whatsapp. 
+          p.postDes Cuando hayas elegido todo lo que necesites <span class="c-inline">guardar, te mandaremos una cotización. </span>
+      .right
+        .postImage
+          img(src="/images/landing-1.png", alt="Post" )
+
+    div.post.landingSecond.justify-between
+      .right
+        .postImage
+          img(src="/images/landing-2.png", alt="Post" )
+      .left
+        .number.mobileHide
+          p 2
+        .postContent  
+          p.postTitle Elegí por dónde pasamos a buscar tus<span class="c-inline"> cosas y programá un retiro. </span> 
+          p.postDes Todas tus cosas serán fotografiadas y  <span class="c-inline">guardadas con cuidado. Vas a poder verlas </span> online para que no te olvides de lo que tenés. Y  <span class="c-inline">cuando las necesites de vuelta, nos avisás y te  </span>  las devolvemos. ¡Así de fácil!
+        .number.mobileShow
+          p 2
+
+    div.onlineBtn
+      p.online-btn_Title ¿Estás listo para empezar?
+      button.online-btn_Est.btn-style_sample Cotizá en línea
+
+    div.service
+      div.row-user.align-center
+        .col-12.col-sm-12.col-md-12.col-lg-6
+          p.serviceDes Contamos con la más alta <span class="c-inline">seguridad en nuestra</span> baulera para que estés<span class="c-inline"> tranquilo de que tus cosas </span> están en buenas manos.
+          p.secureType.mobileHide <span class="c-inline"><img src="/images/arrow.png" alt="Secure Type" /> </span> <span> Conocé más sobre nuestras políticas de seguridad</span> 
+
+        .col-12.col-sm-12.col-md-12.col-lg-6
+          div.row
+            .col-6.col-sm-6.col-md-6.col-lg-6
+              div.service-icon 
+                img(src="/images/service-1.png", alt="Service" , height="80px" )
+              div.service-title
+                p Alarmas 24 hs con <span class="c-inline">sensor de movimiento. </span>
+            .col-6.col-sm-6.col-md-6.col-lg-4
+              div.service-icon 
+                img(src="/images/service-2.png", alt="Service", height="80px" )
+              div.service-title
+                p Alarmas de incendio <span class="c-inline">y extintores. </span>
+            .col-6.col-sm-6.col-md-6.col-lg-4
+              div.service-icon 
+                img(src="/images/service-3.png", alt="Service", height="80px" )
+              div.service-title
+                p Seguro gratis  <span class="c-inline">para tus cosas. </span>
+            .col-6.col-sm-6.col-md-6.col-lg-4
+              div.service-icon 
+                img(src="/images/service-4.png", alt="Service", height="80px" )
+              div.service-title
+                p Áreas restringidas con <span class="c-inline">acceso por huella digtal. </span>
+            .col-6.col-sm-6.col-md-6.col-lg-4
+              div.service-icon 
+                img(src="/images/service-5.png", alt="Service", height="80px" )
+              div.service-title
+                p Instalaciones  <span class="c-inline">monitoreadas con cámaras. </span>
+
+        p.secureType.mobileShow <span class="c-inline"><img src="/images/arrow.png" alt="Secure Type" /> </span> <span> Conocé más sobre nuestras políticas de seguridad</span> 
+
+    div.rent-service 
+      div.rent-content
+        p.rent-content_title Además, podés ganar dinero extra poniendo en alquiler lo que no usás.<span class="c-inline subcontent"> Conocé nuestro servicio de aquiler. 🚀</span>
+        button.btn-style_sample Ir a alquilar
+
+
