@@ -1,0 +1,84 @@
+extends ./layout
+
+block headerContent
+  h3.text-center.headerBannerTitle Comprá menos, compartí más.
+  div.c-hero-btn
+    a(href="#") Alquilá en línea
+
+block content
+  div.content
+    div.contentTitle.mb-5
+      p.contentBannerTitle Poné en alquiler lo que no usás y colaborá con el medio ambiente.<span class="c-inline"> Ahorrá espacio, ganá dinero y ¡Viví más liviano!</span> 
+
+    div.s-landing.landingFirst.justify-between
+      .left
+        .s-rent_title
+          p.category ALQUILÁ
+          p.title ¿Por qué comprar algo que podés alquilar?
+          p.subtitle Más espacio, menos problemas, más libertad.<span class="c-inline"> Encontrá lo que necesitás de nuestros usuarios. </span>
+        
+        .s-landing_diagram
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-1.png", alt="Number 1" )
+            p.diag-title_style Encontrá lo que necesitás y alquilalo de nuestros usuarios.
+          .diagram-step_divider
+            img(src="/images/s-landing-number-divider.png", alt="Number Divide", height="16px" )
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-2.png", alt="Number 2" )
+            p.diag-title_style Calificá el artículo y al vendedor.
+          .diagram-step_divider
+            img(src="/images/s-landing-number-divider.png", alt="Number Divide", height="16px" )
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-3.png", alt="Number 3" )
+            p.diag-title_style Devolvelo cuando quieras o lo pasamos a buscar.
+
+        .row-user.align-center.mt-5.mobileHide
+          button.online-btn_Est.btn-style_sample ¡Comenzá ahora!
+          p.secureType <span class="c-inline"><img src="/images/arrow.png" alt="Secure Type" /> </span> <span> Explorá artículos en alquiler</span> 
+
+      .right
+        .postImage
+          img.mobileHide(src="/images/s-landing-1.png", alt="Post" )
+          img.mobileShow(src="/images/s-landing-1-mobile.png", alt="Post" )
+      
+      .row-user.align-center.mobileShow.m-auto.pt-5
+          button.online-btn_Est.btn-style_sample ¡Comenzá ahora!
+          p.secureType <span class="c-inline"><img src="/images/arrow.png" alt="Secure Type" /> </span> <span> Explorá artículos en alquiler</span> 
+
+    div.s-landing-large_title
+      p #Liberate
+
+    div.s-landing.landingSecond.justify-between
+      .right
+        .postImage
+          img.mobileHide(src="/images/s-landing-2.png", alt="Post" )
+          img.mobileShow(src="/images/s-landing-2-mobile.png", alt="Post" )
+      .left
+        .s-rent_title
+          p.category PONÉ EN ALQUILER
+          p.title ¿Tenés cosas guardadas que no vas a usar?
+          p.subtitle ¡Dales nueva vida alquilándolas! Ponelas en<span class="c-inline"> circulación y colaborá con el medio </span>ambiente haciendo dinero extra.
+        .s-landing_diagram
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-1.png", alt="Number 1" )
+            p.diag-title_style Elegí los artículos que querés alquilar desde tu usuario.
+          .diagram-step_divider
+            img(src="/images/s-landing-number-divider.png", alt="Number Divide", height="16px" )
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-2.png", alt="Number 2" )
+            p.diag-title_style Poneles un precio.
+          .diagram-step_divider
+            img(src="/images/s-landing-number-divider.png", alt="Number Divide", height="16px" )
+          .diagram-step.first-step
+            img(src="/images/s-landing-number-3.png", alt="Number 3" )
+            p.diag-title_style Hacé dinero extra para vos o para descontar del precio de tu baulera.
+
+        .row-user.align-center.mt-5.mobileHide
+          button.online-btn_Est.btn-style_sample ¡Comenzá ahora!
+    .row-user.align-center.mt-4.mb-4.mobileShow.text-center
+        button.online-btn_Est.btn-style_sample ¡Comenzá ahora!
+
+    div.rent-service 
+      div.rent-content
+        p.rent-content_title.s-landing-2-rent ¡No compres más! ¡Alquilá! Es más barato y ocupa menos lugar.
+        button.btn-style_sample.btn-landing-2 Alquilá en línea

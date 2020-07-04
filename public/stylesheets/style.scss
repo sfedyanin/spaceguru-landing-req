@@ -47,6 +47,9 @@ body {
   font-weight: 500;
   font-size: 44px;
   line-height: 48px;
+  @media (max-width: 576px) {
+		font-size: 35px;
+	}
 }
 
 .c-nav {
