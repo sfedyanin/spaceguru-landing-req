@@ -1,5 +1,116 @@
 extends ./layout
 
 block content
-  div.content
-    p Test
+	div.content
+		.t-landing_content
+			.t-landing_banner
+				.row-user.align-center.landing-banner_content
+					.col-12.col-sm-12.col-md-6
+						p.landing-banner_title Tenemos la mejor solución<span class="c-inline"> para los problemas de</span> espacio de tu empresa. 
+						p.landing-banner_subtitle Presupuestos flexibles y a medida, para que<span class="c-inline">  vuelvas a disfrutar de tu oficina.</span>
+						button.btn-style_sample ¡Pedí tu presupuesto!
+					.col-12.col-sm-12.col-md-6
+						img.landing-banner_img(src="/images/t-landing.png", alt="T Landing Banner" )
+
+			.t-landing_service
+				.t-service_title
+					p ¿Cómo Funciona? 
+				.t-service_type
+					.row-user.justify-between
+						.service_category
+							.service-category_num
+								img(src="/images/t-landing-number-1.png", alt="Service Category" )
+							.service-category_img
+								img(src="/images/t-landing-service-1.png", alt="Service Icon" )
+							p.service-category_title ¡Cotizá tu guardado!
+							p.service-category_subtitle Nuestro equipo te ayudará a encontrar un plan a la medida de tus necesidades.
+						.service_category
+							.service-category_num
+								img(src="/images/t-landing-number-2.png", alt="Service Category" )
+							.service-category_img
+								img(src="/images/t-landing-service-2.png", alt="Service Icon" )
+							p.service-category_title ¡Cotizá tu guardado!
+							p.service-category_subtitle Nuestro equipo te ayudará a encontrar un plan a la medida de tus necesidades.
+						.service_category
+							.service-category_num
+								img(src="/images/t-landing-number-3.png", alt="Service Category" )
+							.service-category_img
+								img(src="/images/t-landing-service-3.png", alt="Service Icon" )
+							p.service-category_title ¡Cotizá tu guardado!
+							p.service-category_subtitle Nuestro equipo te ayudará a encontrar un plan a la medida de tus necesidades.
+						.service_category
+							.service-category_num
+								img(src="/images/t-landing-number-4.png", alt="Service Category" )
+							.service-category_img
+								img(src="/images/t-landing-service-4.png", alt="Service Icon" )
+							p.service-category_title ¡Cotizá tu guardado!
+							p.service-category_subtitle Nuestro equipo te ayudará a encontrar un plan a la medida de tus necesidades.
+			
+			.t-landing_profile
+				.t-profile_type
+					.row-user.justify-between
+						.service_category
+							.profile-logo_sec
+								img.service-profile_logo(src="/images/t-landing-profile-1.png", alt="Profile Logo")
+							.round.color-1
+								.quote.bd-color-1
+									img(src="/images/t-landing-quote.png", alt="Quote" )
+									p.quote-content_text Quiero guardar<span class="c-inline"> mi stock </span>
+						.service_category
+							.profile-logo_sec
+								img.service-profile_logo(src="/images/t-landing-profile-2.png", alt="Profile Logo")
+							.round.color-2
+								.quote.bd-color-2
+									img(src="/images/t-landing-quote.png", alt="Quote" )
+									p.quote-content_text Quiero mudar <span class="c-inline"> mi oficina </span>
+						.service_category
+							.profile-logo_sec
+								img.service-profile_logo(src="/images/t-landing-profile-3.png", alt="Profile Logo")
+							.round.color-3
+								.quote.bd-color-3 
+									img(src="/images/t-landing-quote.png", alt="Quote" )
+									p.quote-content_text Necesito más<span class="c-inline"> espacio </span>
+						.service_category
+							.profile-logo_sec
+								img.service-profile_logo(src="/images/t-landing-profile-4.png", alt="Profile Logo")
+							.round.color-4
+								.quote.bd-color-4
+									img(src="/images/t-landing-quote.png", alt="Quote" )
+									p.quote-content_text Quiero guardar <span class="c-inline"> mis documentos </span>
+
+			.t-landing_form
+				.t-landing-form_content
+					.row-user
+						.col-12.col-sm-12.col-md-12.col-lg-6.text-center.tabletHide
+							p.form-title_style ¡Pedinos tu presupuesto hoy!
+							.contact-form_img
+								img(src="/images/t-landing-chica.png", alt="Landing Form", srcset="")
+						.col-12.col-sm-12.col-md-12.col-lg-6
+							.contact-form_section
+								.tabletShow.custom-bg_style
+									.mobile-img_style
+										img(src="/images/t-landing-chica-mobile.png", alt="Mobile Chica" )
+								.tabletShow.gradient-divide_style
+								.form-header_style
+									p ¡Pedí tu presupuesto!
+								.form-body_style
+									p.form-label_style Tu empresa
+									input.w-100(type="text", name="Tu empresa")
+									p.form-label_style Tu nombre
+									input.w-100(type="text", name="Tu nombre")
+									p.form-label_style Tu apellido
+									input.w-100(type="text", name="Tu apellido")
+									p.form-label_style Tu Email
+									input.w-100(type="text", name="Tu Email")
+									p.form-label_style Teléfono de contacto
+									input.w-100(type="text", name="Teléfono de contacto", placeholder="01133333333")
+									input.w-100.btn-style_sample.text-center(type="button", name="Teléfono de contacto", value="Enviar", placeholder="01133333333")
+								.form-contact_style.justify-between.d-flex.tabletHide
+									p ¡O escribinos!:
+									img(src="/images/tel.png", alt="Contact Phone" )
+									p.phone_number (011) 5263-5754
+
+
+			.white-bg_custom
+
+

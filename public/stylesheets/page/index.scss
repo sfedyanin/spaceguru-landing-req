@@ -215,13 +215,8 @@
 .round {
 	height: 286px;
     width: 100%;
-    margin: 52px auto;
-    background: #26255d;
-    clip-path: polygon(100% 0, 100% 76%, 85% 100%, 0 100%, 0 100%, 0 0);
+	clip-path: polygon(100% 0, 100% 78%, 81% 100%, 0 100%, 0 100%, 0 0);
 	border-radius: 6px 6px 90px 6px;
-	@media (max-width: 576px) {
-		width: 95%
-	}
 }
 
 // Landing Second Page

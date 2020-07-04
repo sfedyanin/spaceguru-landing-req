@@ -1,4 +1,5 @@
 @import './page/index.scss';
+@import './page/empresas.scss';
 
 @font-face {
   font-family: 'DMsans';
@@ -11,6 +12,38 @@ body {
   letter-spacing: -0.01em;
   line-height: 23px;
   color: white;
+}
+
+.color-1 {
+  background: #5D58F7;
+}
+
+.color-2 {
+  background: #0F0E31;
+}
+
+.color-3 {
+  background: #FF6272;
+}
+
+.color-4 {
+  background: #0F0E31;
+}
+
+.bd-color-1 {
+  border-color: #FF6272;
+}
+
+.bd-color-2 {
+  border-color: #5D58F7;
+}
+
+.bd-color-3 {
+  border-color: #5D58F7;
+}
+
+.bd-color-4 {
+  border-color: #FF4378;
 }
 
 * {
@@ -170,6 +203,10 @@ button {
   display: none!important ;
 }
 
+.tabletShow {
+  display: none!important ;
+}
+
 .footerContent {
   padding: 80px 10%;
   &>.row-user {
@@ -252,6 +289,14 @@ button {
 @media (max-width: 768px) {
   .container {
     padding: 0!important;
+  }
+  
+  .tabletHide {
+    display: none!important; 
+  }
+  
+  .tabletShow {
+    display: block!important; 
   }
 }
 
@@ -349,6 +394,7 @@ button {
   .mobileShow {
     display: block!important; 
   }
+
 
   .c-hero-btn {
     padding-bottom: 34px;
