@@ -309,6 +309,17 @@ button {
   .customMargin {
     margin-bottom: 50px;
   }
+
+  
+  .mobileHide {
+    display: none!important; 
+  }
+  
+  .mobileShow {
+    display: block!important; 
+  }
+
+
 }
 
 @media (max-width: 414px)  {
@@ -385,14 +396,6 @@ button {
 
   .nav-wrapper {
     height: auto;
-  }
-
-  .mobileHide {
-    display: none!important; 
-  }
-  
-  .mobileShow {
-    display: block!important; 
   }
 
 

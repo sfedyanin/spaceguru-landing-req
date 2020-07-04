@@ -804,7 +804,11 @@ button:focus {
   .listGroup:last-child {
     margin-left: 0px; }
   .customMargin {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .mobileHide {
+    display: none !important; }
+  .mobileShow {
+    display: block !important; } }
 
 @media (max-width: 414px) {
   .bg-img {
@@ -850,10 +854,6 @@ button:focus {
         float: right; }
   .nav-wrapper {
     height: auto; }
-  .mobileHide {
-    display: none !important; }
-  .mobileShow {
-    display: block !important; }
   .c-hero-btn {
     padding-bottom: 34px; } }
 
