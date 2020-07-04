@@ -266,6 +266,8 @@
 @media (max-width: 576px) {
   .contentBannerTitle {
     font-size: 22px; }
+  .post .left {
+    display: flex; }
   .post .landingFirst {
     margin-left: 5%;
     margin-top: 40px; }
