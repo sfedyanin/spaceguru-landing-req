@@ -595,16 +595,16 @@ body {
   background: #0F0E31; }
 
 .bd-color-1 {
-  border-color: #FF6272; }
+  border-left-color: #FF6272 !important; }
 
 .bd-color-2 {
-  border-color: #5D58F7; }
+  border-left-color: #5D58F7 !important; }
 
 .bd-color-3 {
-  border-color: #5D58F7; }
+  border-left-color: #5D58F7 !important; }
 
 .bd-color-4 {
-  border-color: #FF4378; }
+  border-left-color: #FF4378 !important; }
 
 * {
   margin: 0;
