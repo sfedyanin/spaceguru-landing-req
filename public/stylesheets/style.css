@@ -176,8 +176,17 @@
         margin-bottom: 50px; } }
     .s-landing:last-child .left {
       padding-left: 10%; }
+  @media (min-width: 1500px) {
+    .s-landing .postImage {
+      text-align: right; } }
+  @media (min-width: 1500px) {
+    .s-landing .customImage {
+      text-align: left; } }
   .s-landing img {
     width: 100%; }
+    @media (min-width: 1500px) {
+      .s-landing img {
+        width: 80%; } }
   .s-landing .right {
     width: 50%; }
   .s-landing .left {

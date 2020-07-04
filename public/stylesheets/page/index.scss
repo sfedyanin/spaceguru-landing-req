@@ -238,9 +238,23 @@
 			padding-left: 10%;
 		}
 	}
+
+	.postImage {
+		@media (min-width: 1500px) {
+			text-align: right;
+		}
+	}
+	.customImage {
+		@media (min-width: 1500px) {
+			text-align: left;
+		}
+	}
 	
 	img{
 		width: 100%;
+		@media (min-width: 1500px) {
+			width: 80%
+		}
 	}
 
 	.right{
