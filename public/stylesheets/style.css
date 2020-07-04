@@ -423,6 +423,7 @@
           clip-path: polygon(100% 0, 100% 84%, 89% 100%, 0 100%, 0 100%, 0 0); } }
       @media (max-width: 576px) {
         .t-landing_content .t-landing_profile .t-profile_type .service_category .round {
+          padding-top: 70px;
           clip-path: polygon(100% 0, 100% 83%, 90% 100%, 0 100%, 0 100%, 0 0); } }
     .t-landing_content .t-landing_profile .t-profile_type .service_category .profile-logo_sec {
       width: 80px;
@@ -449,12 +450,21 @@
           .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
             margin-top: 10px;
             font-size: 18px; } }
+        @media (max-width: 768px) {
+          .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
+            margin-top: 30px;
+            font-size: 26px; } }
+        @media (max-width: 576px) {
+          .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
+            margin-top: 20px;
+            font-size: 22px; } }
     @media (max-width: 1024px) {
       .t-landing_content .t-landing_profile .t-profile_type .service_category {
         padding: 0 10px; } }
     @media (max-width: 768px) {
       .t-landing_content .t-landing_profile .t-profile_type .service_category {
         width: 50%;
+        padding: 0 20px;
         margin-top: 60px; } }
     @media (max-width: 576px) {
       .t-landing_content .t-landing_profile .t-profile_type .service_category {
