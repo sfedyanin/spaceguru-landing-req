@@ -219,6 +219,17 @@
 	border-radius: 6px 6px 90px 6px;
 }
 
+.custom-shape_title {
+	position: relative;
+    padding: 15px 20px;
+    width: fit-content;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 104px 62px 60px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 100% 20%, 8% 20%, 0% 0%, 0% 95%);
+}
+
 // Landing Second Page
 
 .s-landing {

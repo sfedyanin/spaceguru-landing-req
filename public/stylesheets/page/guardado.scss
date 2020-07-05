@@ -1,0 +1,122 @@
+.header-guardado_content {
+    text-align: center;
+    padding-top: 30px;
+    .subtitle {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 48px;
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
+        @media (max-width: 576px) {
+            font-size: 30px;
+        }
+    }
+    @media (max-width: 576px) {
+        padding-top: 0;
+    }
+}
+
+.l-landing-guardado_content {
+    padding: 100px 10%;
+    color: #0F0E31;
+    font-size: 16px;
+    line-height: 21px;
+    .l-landing-body_header {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .l-landing-body_content {
+        margin-top: 80px;
+        .l-landing_content {
+            margin-top: 30px;
+        }
+    }
+    .l-landing-contact_content {
+        .l-contact-body_title {
+            text-align: center;
+            margin-top: 100px;
+            .title {
+                font-size: 24px;
+                line-height: 31px;
+                margin-bottom: 60px;
+                @media (max-width: 768px) {
+                    font-size: 21px;
+                }
+            }
+            .overflow-section {
+                .contact_category {
+                    width: 28%;
+                    padding: 30px;
+                    position: relative;
+                    .bg {
+                        position: absolute;
+                        left: 10px;
+                        top: 0;
+                        width: 100%;
+                        height: max-content;
+                    }
+                    .round {
+                        height: unset;
+                        padding: 0 15px;
+                        padding-top: 15px;
+                    }
+                    .contact-title {
+                        padding-top: 20px;
+                        font-weight: bold;
+                    }
+                    .contact-subtitle {
+                        color: #000000;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                    .contact-details {
+                        color: #5D58F7;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                    @media (max-width: 1024px) {
+                        width: 32%;
+                        padding: 15px
+                    }
+                    @media (max-width: 768px) {
+                        width: 50%;
+                    }
+                    @media (max-width: 576px) {
+                        width: 100%;
+                    }
+                }
+                .row-user {
+                    @media (max-width: 768px) {
+                        width: 150%;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        height: 280px;
+                    }
+                    @media (max-width: 576px) {
+                        width: 300%;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        height: 280px;
+                    }
+                } 
+                @media (max-width: 768px) {
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                } 
+                // @media (max-width: 576px) {
+                //     overflow-x: auto;
+                //     overflow-y: hidden;
+                // }
+            }
+        }
+    }
+    @media (max-width: 576px) {
+        padding: 50px 3%;
+    } 
+}

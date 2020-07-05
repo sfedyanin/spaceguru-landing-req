@@ -1,5 +1,7 @@
 @import './page/index.scss';
 @import './page/empresas.scss';
+@import './page/guardado.scss';
+@import './page/nosotros.scss';
 
 @font-face {
   font-family: 'DMsans';
@@ -29,6 +31,23 @@ body {
 .color-4 {
   background: #0F0E31;
 }
+
+.color-5 {
+  background: #515070;
+}
+
+.color-6 {
+  background: white;
+}
+
+.color-7 {
+  color: white
+}
+
+.color-8 {
+  color: #0F0E31;
+}
+
 
 .bd-color-1 {
   border-left-color: #FF6272 !important;
