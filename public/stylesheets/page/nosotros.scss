@@ -31,12 +31,15 @@
             @media (min-width: 1440px) {
                 width: 70%;
             }
+            @media (max-width: 992px) {
+                width: 85%;
+            }
             @media (max-width: 768px) {
                 width: 60%;
             }
         }
         .flex-reverse {
-            @media (max-width: 768px) {
+            @media (max-width: 992px) {
                 flex-wrap: wrap-reverse;
             }
         }
@@ -144,8 +147,11 @@
             font-weight: bold;
         }
     }
-    @media (max-width: 768px) {
-        padding: 40px 8%
+    @media (max-width: 1024px) {
+        padding: 40px 7%
+    }
+    @media (max-width: 992px) {
+        padding: 40px 5%
     }
     @media (max-width: 576px) {
         padding: 40px 3%
