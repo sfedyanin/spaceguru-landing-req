@@ -226,6 +226,10 @@ button {
   display: none!important ;
 }
 
+.big_tabletShow {
+  display: none!important ;
+}
+
 .footerContent {
   padding: 80px 10%;
   &>.row-user {
@@ -302,6 +306,17 @@ button {
     &:first-child {
       margin-bottom: 20px;
     }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .big_tabletHide {
+    display: none!important; 
+  }
+  
+  .big_tabletShow {
+    display: block!important; 
   }
 }
 

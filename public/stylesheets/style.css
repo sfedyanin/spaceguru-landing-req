@@ -328,10 +328,10 @@
     margin-bottom: 30px; }
     @media (max-width: 1024px) {
       .t-landing_content .t-landing_banner .landing-banner_content .landing-banner_title {
-        font-size: 30px; } }
+        font-size: 28px; } }
     @media (max-width: 768px) {
       .t-landing_content .t-landing_banner .landing-banner_content .landing-banner_title {
-        font-size: 23px; } }
+        font-size: 22px; } }
     @media (max-width: 576px) {
       .t-landing_content .t-landing_banner .landing-banner_content .landing-banner_title {
         font-size: 30px;
@@ -353,9 +353,12 @@
         line-height: 23px; } }
   .t-landing_content .t-landing_banner .landing-banner_content .landing-banner_img {
     width: 100%; }
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     .t-landing_content .t-landing_banner .landing-banner_content .btn-style_sample {
       margin-bottom: 30px; } }
+  @media (max-width: 768px) {
+    .t-landing_content .t-landing_banner .landing-banner_content:first-child {
+      text-align: center; } }
   @media (max-width: 576px) {
     .t-landing_content .t-landing_banner .landing-banner_content {
       text-align: center; } }
@@ -403,6 +406,10 @@
       @media (max-width: 1024px) {
         .t-landing_content .t-landing_service .t-service_type .service_category {
           width: 25%; } }
+      @media (max-width: 768px) {
+        .t-landing_content .t-landing_service .t-service_type .service_category {
+          width: 50%;
+          margin-top: 30px; } }
       @media (max-width: 576px) {
         .t-landing_content .t-landing_service .t-service_type .service_category {
           width: 100%; } }
@@ -437,6 +444,12 @@
           border-radius: 6px 6px 50px 6px;
           height: 200px;
           clip-path: polygon(100% 0, 100% 84%, 82% 100%, 0 100%, 0 100%, 0 0); } }
+      @media (max-width: 992px) {
+        .t-landing_content .t-landing_profile .t-profile_type .service_category .round {
+          height: 220px; } }
+      @media (max-width: 862px) {
+        .t-landing_content .t-landing_profile .t-profile_type .service_category .round {
+          height: 230px; } }
       @media (max-width: 768px) {
         .t-landing_content .t-landing_profile .t-profile_type .service_category .round {
           clip-path: polygon(100% 0, 100% 84%, 89% 100%, 0 100%, 0 100%, 0 0); } }
@@ -464,11 +477,20 @@
         margin-top: 30px;
         font-weight: bold;
         font-size: 24px;
-        line-height: 30px; }
+        line-height: 30px;
+        padding-right: 20px; }
+        @media (max-width: 1250px) {
+          .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
+            margin-top: 15px;
+            font-size: 20px;
+            margin-left: 0; } }
         @media (max-width: 1024px) {
           .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
             margin-top: 10px;
             font-size: 18px; } }
+        @media (max-width: 992px) {
+          .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
+            font-size: 17px; } }
         @media (max-width: 768px) {
           .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
             margin-top: 30px;
@@ -477,6 +499,18 @@
           .t-landing_content .t-landing_profile .t-profile_type .service_category .quote .quote-content_text {
             margin-top: 20px;
             font-size: 22px; } }
+      @media (max-width: 1024px) {
+        .t-landing_content .t-landing_profile .t-profile_type .service_category .quote {
+          padding-left: 14px;
+          margin-left: 14px; } }
+      @media (max-width: 800px) {
+        .t-landing_content .t-landing_profile .t-profile_type .service_category .quote {
+          padding-left: 12px;
+          margin-left: 12px; } }
+      @media (max-width: 576px) {
+        .t-landing_content .t-landing_profile .t-profile_type .service_category .quote {
+          padding-left: 20px;
+          margin-left: 20px; } }
     @media (max-width: 1024px) {
       .t-landing_content .t-landing_profile .t-profile_type .service_category {
         padding: 0 10px; } }
@@ -501,6 +535,11 @@
     font-size: 30px;
     line-height: 39px;
     color: #0F0E31; }
+  @media (max-width: 1024px) {
+    .t-landing_content .t-landing_form .t-landing-form_content .tablet-width_style {
+      width: 100%;
+      max-width: 100%;
+      flex: unset; } }
   .t-landing_content .t-landing_form .t-landing-form_content img {
     width: 400px; }
     @media (max-width: 1064px) {
@@ -522,9 +561,11 @@
       .t-landing_content .t-landing_form .t-landing-form_content .contact-form_section .custom-bg_style .mobile-img_style {
         text-align: center;
         position: relative; }
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
           .t-landing_content .t-landing_form .t-landing-form_content .contact-form_section .custom-bg_style .mobile-img_style img {
-            left: 20%;
+            position: absolute;
+            left: 25%;
+            bottom: -140px;
             width: 50%; } }
         @media (max-width: 576px) {
           .t-landing_content .t-landing_form .t-landing-form_content .contact-form_section .custom-bg_style .mobile-img_style img {
@@ -583,10 +624,13 @@
       @media (max-width: 1024px) {
         .t-landing_content .t-landing_form .t-landing-form_content .contact-form_section .form-contact_style {
           padding: 0 12% 20px 14%; } }
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       .t-landing_content .t-landing_form .t-landing-form_content .contact-form_section {
         margin-top: 0; } }
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
+    .t-landing_content .t-landing_form .t-landing-form_content {
+      margin-top: 100px; } }
+  @media (max-width: 1024px) {
     .t-landing_content .t-landing_form {
       height: unset;
       background: white; } }
@@ -986,6 +1030,9 @@ button:focus {
 .tabletShow {
   display: none !important; }
 
+.big_tabletShow {
+  display: none !important; }
+
 .footerContent {
   padding: 80px 10%; }
   .footerContent > .row-user .inputBox {
@@ -1035,6 +1082,12 @@ button:focus {
     margin-left: 12px; }
   .menuGroup:first-child {
     margin-bottom: 20px; } }
+
+@media (max-width: 1024px) {
+  .big_tabletHide {
+    display: none !important; }
+  .big_tabletShow {
+    display: block !important; } }
 
 @media (max-width: 768px) {
   .container {
