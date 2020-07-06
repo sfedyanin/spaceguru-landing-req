@@ -1033,6 +1033,9 @@ button:focus {
 .justify-evenly {
   justify-content: space-evenly; }
 
+.justify-center {
+  justify-content: center; }
+
 .align-center {
   align-items: center; }
 
