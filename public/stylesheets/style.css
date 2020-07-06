@@ -822,6 +822,9 @@
   @media (max-width: 768px) {
     .l-landing-nosotros_content .l-landing-post_content .row-user:last-child {
       margin-top: 60px; } }
+  @media (max-width: 414px) {
+    .l-landing-nosotros_content .l-landing-post_content .row-user {
+      display: flex; } }
   @media (max-width: 768px) {
     .l-landing-nosotros_content .l-landing-post_content .img-box_style {
       text-align: center !important;
