@@ -5,7 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
 	res.render('menu', {
 		title: 'Menus',
-		headerType: 'backbg'
+		headerType: 'backbg',
+		custom: 'custom_height'
 	});
 });
 
