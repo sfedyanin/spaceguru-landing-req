@@ -11,6 +11,12 @@ var empresasRouter = require('./routes/empresas');
 var alquilarRouter = require('./routes/alquilar');
 var nosotrosRouter = require('./routes/nosotros');
 var guardadoRouter = require('./routes/guardado');
+var menuRouter = require('./routes/menu');
+var politicsRouter = require('./routes/politics');
+var donationsRouter = require('./routes/donations');
+var contractsRouter = require('./routes/contracts');
+var termsRouter = require('./routes/term_conditions');
+var storageRouter = require('./routes/storage');
 
 var app = express();
 
@@ -36,6 +42,14 @@ app.use('/empresas', empresasRouter);
 app.use('/alquilar', alquilarRouter);
 app.use('/nosotros', nosotrosRouter);
 app.use('/guardado', guardadoRouter);
+app.use('/menu', menuRouter);
+app.use('/politics', politicsRouter);
+app.use('/terms', termsRouter);
+app.use('/storage', storageRouter);
+app.use('/contracts', contractsRouter);
+app.use('/donations', donationsRouter);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,0 +1,119 @@
+.header-public_content {
+    text-align: center;
+    padding-top: 30px;
+    .subtitle {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .title {
+        font-weight: 500;
+        margin: 0;
+        font-size: 44px;
+        line-height: 48px;
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
+        @media (max-width: 576px) {
+            font-size: 30px;
+        }
+    }
+    .category {
+        padding-top: 20px;
+        font-style: italic;
+        margin: 0 20%;
+        @media (max-width: 768px) {
+            margin: 0 10%;
+        }
+        @media (max-width: 576px) {
+            margin: 0 2%;
+        }
+        @media (max-width: 414px) {
+            margin: 0 5%;
+        }
+        @media (max-width: 379px) {
+            margin: 0 3%;
+        }
+    }
+    @media (max-width: 576px) {
+        padding-top: 0;
+    }
+}
+
+.custom_height {
+    height: 330px;
+}
+
+.custom-margin_content {
+    margin-top: -30px;
+}
+
+.body-public_content {
+    padding: 100px 10%;
+    p {
+        margin-top: 30px;
+    }
+    .title {
+        font-weight: bold;
+        color: #0F0E31;
+        font-weight: 20px;
+    }
+    .title.text-center {
+        font-size: 25px;
+    }
+    .public-content_style {
+        color: #0F0E31;
+    }
+    .spec-content_style {
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+    .label {
+        font-weight: bold;
+        color: #0F0E31;
+    }
+    .text-italic {
+        font-style: italic;
+    }
+    .text-underline {
+        text-decoration: underline;
+    }
+    .custom-padding_style {
+        padding: 0 20px
+    }
+    .anchor-menu_content {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: auto;
+        padding: 25px 28px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        margin-bottom: 30px;
+        @media (max-width: 1024px) {
+            width: 70%
+        }
+        @media (max-width: 768px) {
+            width: 80%
+        }
+        @media (max-width: 576px) {
+            width: 90%;
+            padding: 15px 20px;
+        }
+    }
+    .anchor-menu_style {
+        color: #0F0E31;
+    }
+    .anchor-menu_style:hover {
+        color: #0F0E31;
+    }
+    @media (max-width: 1024px) {
+        padding: 80px 8%;
+    }
+    @media (max-width: 768px) {
+        padding: 80px 7%;
+    }
+    @media (max-width: 576px) {
+        padding: 80px 3%;
+    }
+}

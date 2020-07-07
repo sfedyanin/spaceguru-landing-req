@@ -1,4 +1,5 @@
 @import './page/index.scss';
+@import './page/content.scss';
 @import './page/empresas.scss';
 @import './page/guardado.scss';
 @import './page/nosotros.scss';
@@ -8,7 +9,7 @@
   src: url('DMSans-Regular.ttf');
 }
 
-body { 
+body {
   font-size: 18px;
   font-family: 'DMsans';
   letter-spacing: -0.01em;
@@ -193,7 +194,7 @@ button {
   flex-wrap: wrap;
 }
 
-.justify-between { 
+.justify-between {
   justify-content: space-between;
 }
 
@@ -320,11 +321,11 @@ button {
 
 @media (max-width: 1024px) {
   .big_tabletHide {
-    display: none!important; 
+    display: none!important;
   }
-  
+
   .big_tabletShow {
-    display: block!important; 
+    display: block!important;
   }
 }
 
@@ -332,13 +333,13 @@ button {
   .container {
     padding: 0!important;
   }
-  
+
   .tabletHide {
-    display: none!important; 
+    display: none!important;
   }
-  
+
   .tabletShow {
-    display: block!important; 
+    display: block!important;
   }
 }
 
@@ -352,13 +353,13 @@ button {
     margin-bottom: 50px;
   }
 
-  
+
   .mobileHide {
-    display: none!important; 
+    display: none!important;
   }
-  
+
   .mobileShow {
-    display: block!important; 
+    display: block!important;
   }
 
 
@@ -371,7 +372,7 @@ button {
     top: 0;
     padding: 20px 0;
   }
-  
+
   .nav-wrapper  {
     background-image: url(/images/mobile-bg.png);
   }
@@ -392,7 +393,7 @@ button {
   .c-inline {
     display: inline;
   }
-  
+
   .row-user {
     display: block;
     .summaryGroup {
@@ -406,7 +407,7 @@ button {
       height: 350px;
     }
   }
-  
+
   .footerContent {
     &>.row-user {
       display: flex;
@@ -446,5 +447,3 @@ button {
   }
 
 }
-  
-  
