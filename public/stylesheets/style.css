@@ -404,6 +404,8 @@
       .body-public_content .anchor-menu_content {
         width: 90%;
         padding: 15px 20px; } }
+    .body-public_content .anchor-menu_content:hover {
+      text-decoration: none; }
   .body-public_content .anchor-menu_style {
     color: #0F0E31; }
   .body-public_content .anchor-menu_style:hover {
